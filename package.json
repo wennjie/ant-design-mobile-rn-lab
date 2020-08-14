@@ -1,0 +1,23 @@
+{
+  "name": "react-native-antd-lab",
+  "version": "1.0.0",
+  "description": "English | [简体中文](./README.zh-CN.md)",
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wennjie/ant-design-mobile-rn-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wennjie/ant-design-mobile-rn-lab/issues"
+  },
+  "homepage": "https://github.com/wennjie/ant-design-mobile-rn-lab#readme"
+}
