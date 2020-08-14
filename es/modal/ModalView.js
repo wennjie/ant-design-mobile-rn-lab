@@ -3,7 +3,7 @@ import _createClass from 'babel-runtime/helpers/createClass';
 import _possibleConstructorReturn from 'babel-runtime/helpers/possibleConstructorReturn';
 import _inherits from 'babel-runtime/helpers/inherits';
 import React from 'react';
-import { Animated, Dimensions, Easing, StyleSheet, TouchableWithoutFeedback, View, BackHandler } from 'react-native';
+import { Animated, BackHandler, Dimensions, Easing, StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 import Portal from '../portal';
 var styles = StyleSheet.create({
     wrap: {
@@ -82,7 +82,7 @@ var RCModal = function (_React$Component) {
                     _this.animDialog = Animated.timing(_this.state.position, {
                         toValue: _this.getPosition(visible),
                         duration: animationDuration,
-                        easing: visible ? Easing.elastic(0.8) : undefined,
+                        easing: visible ? Easing.elastic(0) : undefined,
                         useNativeDriver: true
                     });
                 } else if (animationType === 'fade') {
